@@ -1,13 +1,11 @@
 {
-  "pages":[
-          "pages/posts/posts",
-      "pages/index/index"
-
-  
+  "pages": [
+    "pages/index/index",
+    "pages/posts/posts"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f5cb32",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
