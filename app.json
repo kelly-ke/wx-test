@@ -1,0 +1,13 @@
+{
+  "pages":[
+          "pages/posts/posts",
+      "pages/index/index"
+
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f5cb32",
+    "navigationBarTextStyle":"black"
+  }
+}

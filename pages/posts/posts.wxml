@@ -1,0 +1,40 @@
+<!--logs.wxml-->
+<view>
+  <swiper vertical='true' indicator-dots='true' autoplay='true' interval='50000' indicator-color='#fff' indicator-active-color='yellow'>
+    <swiper-item>
+      <image src="/images/swiper/swiper1.png"></image>
+    </swiper-item>
+    <swiper-item><image src="/images/swiper/swiper2.png"></image></swiper-item>
+    <swiper-item><image src="/images/swiper/swiper3.png"></image></swiper-item>
+  </swiper>
+  <view class='post-container'>
+    <view class='post-auth-data'>
+      <image class='post-auth' src='{{author_img}}'></image>
+      <text class='post-data'>{{date}}</text>
+    </view>
+    <text class='post-title'>{{title}}</text>
+    <image class='post-image' src='{{post_img}}'></image>
+    <text class='post-content'>{{content}}</text>
+    <view class='post-like'>
+      <image  class='post-like-image' src='../../images/icon/chat.png'></image>
+      <text class='post-like-font'>{{collect_num}}</text>
+      <image class='post-like-image' src='../../images/icon/view.png'></image>
+      <text class='post-like-font'>{{post_img}}</text>
+    </view>
+  </view>
+  <view class='post-container'>
+    <view class='post-auth-data'>
+      <image class='post-auth' src='/images/avatar/2.png'></image>
+      <text class='post-data'>Mar 25 2018</text>
+    </view>
+    <text class='post-title'>比利.林恩中场战事</text>
+    <image class='post-image' src='/images/post/bl.png'></image>
+    <text class='post-content'>李安导演的作品</text>
+    <view class='post-like'>
+      <image  class='post-like-image' src='../../images/icon/chat.png'></image>
+      <text class='post-like-font'>92</text>
+      <image class='post-like-image' src='../../images/icon/view.png'></image>
+      <text class='post-like-font'>1112</text>
+    </view>
+  </view>
+</view>
