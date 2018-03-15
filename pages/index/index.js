@@ -14,10 +14,10 @@ Page({
     // 保留当前页面，跳转到应用内的某个页面，使用wx.navigateBack可以返回到原页面。
     // wx.navigateTo({
     //   url: '../posts/posts',
-    // }),
+    // })
 
     //关闭当前页面，跳转到应用内的某个页面
-      wx.redirectTo({
+    wx.switchTab({
         url: '../posts/posts',
       }) 
   },
